@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+  resonite:
+    image: shadowpanther/resonite-headless:latest
+    container_name: resonite-headless
+    tty: true
+    stdin_open: true
+    environment:
+      STEAMBETA: headless
+      STEAMBETAPASSWORD: ${RES_HEADLESS_CODE}
+      STEAMLOGIN: ${RES_STEAM_LOGIN}
+    volumes:
+      - "./Config/Config.json:/Config/Config.json:ro"
+      - "./Logs:/Logs"
+      - "/etc/localtime:/etc/localtime:ro"
+    restart: unless-stopped

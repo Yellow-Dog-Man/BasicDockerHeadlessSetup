@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Yellow-Dog-Man/JSONSchemas/main/schemas/HeadlessConfig.schema.json",
+    "startWorlds": [
+      {
+        "isEnabled": true,
+        "sessionName": "Testing",
+        "accessLevel": "Anyone",
+        "loadWorldPresetName": "Grid"
+      }
+    ]
+  }
