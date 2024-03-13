@@ -3,10 +3,10 @@ A very simple docker setup for a Headless Resonite Session, it uses [Shadow Pant
 
 ## Setup
 
-## Recommended for Beginners
+### Recommended for Beginners
 If you're new to Docker, Docker Compose or git, we'd recommend you use our [wiki guide on how to use this repo](https://wiki.resonite.com/index.php?title=Headless_Client/Docker).
 
-## Quick Instructions
+### Quick Instructions
 1. Setup Docker & Docker Compose on your target machine.
 1. `git clone`.
 1. Create an `.env` file.
