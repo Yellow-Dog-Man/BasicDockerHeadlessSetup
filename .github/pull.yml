@@ -1,0 +1,7 @@
+#https://github.com/wei/pull
+# This keeps the headless branch up to date which makes for a nice zip file on our wiki
+version: "1"
+rules:
+  - base: Headless
+    upstream: Yellow-Dog-Man:main
+    mergeMethod: hardreset
