@@ -12,5 +12,4 @@ services:
     volumes:
       - "./Config/Config.json:/Config/Config.json:ro"
       - "./Logs:/Logs"
-      - "/etc/localtime:/etc/localtime:ro"
     restart: unless-stopped
